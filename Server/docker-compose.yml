@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  rmgt-server:
+    build:
+      context: .
+    container_name: rmgt-server
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
+    working_dir: /app
+    environment:
+      - STEAM_API_KEY=${STEAM_API_KEY}
+      - APP_ID=${APP_ID}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY} 

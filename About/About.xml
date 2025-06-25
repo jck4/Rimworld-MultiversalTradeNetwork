@@ -1,0 +1,16 @@
+<ModMetaData>
+	<packageId>Jck.MultiVersalGalacticTrade</packageId>
+	<name>Multiversal Galactic Trade</name>
+	<author>jck</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+
+	<modDependencies>
+	</modDependencies>
+
+	<incompatibleWith>
+	</incompatibleWith>
+
+	<description>Multiversal Galactic Trade</description>
+</ModMetaData>

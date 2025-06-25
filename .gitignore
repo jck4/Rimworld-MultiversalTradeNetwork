@@ -4,3 +4,4 @@
 /*/Assemblies
 /*/Assemblies/*.pdb
 # /.vscode
+Server\.env

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>OpenTradeWindow</defName>
+    <label>MTN</label>
+    <description>Open the Multiversal Trade Network window</description>
+    <tabWindowClass>MTN.TradeNetworkWindow</tabWindowClass>
+    <order>100</order>
+  </MainButtonDef>
+</Defs> 
