@@ -162,7 +162,7 @@ namespace MTN
                             TradeUtils.SellItems(itemsToSell, 
                                 (success) => {
                                     TradeUtils.DeleteSoldItems(tradeAmounts);
-                                    Messages.Message("TradeAcceptedMessage", MessageTypeDefOf.PositiveEvent, false);
+                                    Messages.Message("Trade Accepted", MessageTypeDefOf.PositiveEvent, false);
                                     Close();
                                 },
                                 (error) => {
